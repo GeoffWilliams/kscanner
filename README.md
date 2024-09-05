@@ -2,7 +2,7 @@
 
 Kafka Scanner - scan the contents of a topic to see what type of messages are contained
 
-No Warrenty. Have lots of funs :)
+No Warranty. Have lots of funs :)
 
 ## Usage
 First create properties file with connection settings (see example: client.propertes)
