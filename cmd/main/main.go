@@ -250,7 +250,7 @@ func consume() {
 func readParamsFromFile(filename string) (kafka.ConfigMap, map[string]string, error) {
 	file, err := os.Open(filename)
 	if err != nil {
-		return nil, nil, err
+		panic(fmt.Sprintf("cannot open: %s (%v)", filename, err))
 	}
 	defer file.Close()
 

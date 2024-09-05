@@ -1,4 +1,4 @@
-kscanner
+kscanner-linux-amd64-musl
 *.tar.gz
 .vscode
 *.csv

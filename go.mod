@@ -11,6 +11,7 @@ require (
 require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/jedib0t/go-pretty/v6 v6.5.9 // indirect
+	github.com/karalabe/xgo v0.0.0-20191115072854-c5ccff8648a7 // indirect
 	github.com/linkedin/goavro/v2 v2.13.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
@@ -20,4 +21,5 @@ require (
 	github.com/schollz/progressbar/v3 v3.14.6 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
+	src.techknowlogick.com/xgo v1.7.1-0.20240813171255-c7b239409286 // indirect
 )
