@@ -8,10 +8,16 @@ No Warranty. Have lots of funs :)
 First create properties file with connection settings (see example: client.propertes)
 
 ### Scan whole topic, print table of found data types
-./kscanner-linux-amd64-musl detail client.properties orders-pb
+
+```shell
+./kscanner-linux-amd64-musl detail client.properties TOPIC
+```
 
 ### Scan whole topic, print table of found data types, log messages to CSV that are not what we want
-./kscanner-linux-amd64-musl detail client.properties orders-pb --want PROTOBUF
+
+```shell
+./kscanner-linux-amd64-musl detail client.properties TOPIC --want PROTOBUF
+```
 
 Output will be in `interesting.csv`. Columns: `partition, offset, message`
 
