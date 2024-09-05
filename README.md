@@ -21,9 +21,6 @@ First create properties file with connection settings (see example: client.prope
 
 Output will be in `interesting.csv`. Columns: `partition, offset, message`
 
-
-2. Run the app:
-
 ## Example Output
 ```
 ⠦ messages processed (74550/-, 3 it/s) [54s]
