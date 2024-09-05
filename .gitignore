@@ -1,0 +1,4 @@
+kscanner
+*.tar.gz
+.vscode
+*.csv
